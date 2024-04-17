@@ -20,5 +20,5 @@ public interface CategoryRepository extends JpaRepository<Category, Long> {
         return null;
     }
 
-    List<Post> findByCategory(Category category);
+    /* List<Post> findByCategory(Category category); */
 }
